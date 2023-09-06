@@ -1,7 +1,8 @@
+import './page.module.css'
 
 const About = () => {
   return (
-    <div>About</div>
+    <div className={stales.container}>About</div>
   )
 }
 
