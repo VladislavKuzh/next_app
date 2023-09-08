@@ -32,7 +32,7 @@ const BlogID = async ({params}) => {
           <p className={styles.desc}>{data.desc}</p>
           <div className={styles.author}>
             <Image
-              src={data.img}
+              src='/avatar_placeholder.png'
               alt=""
               width={40}
               height={40}
@@ -44,7 +44,7 @@ const BlogID = async ({params}) => {
         <div className={styles.imageContainer}>
           <Image
             src={data.img}
-            alt=""
+            alt="avatar"
             fill={true}
             className={styles.image}
           />
